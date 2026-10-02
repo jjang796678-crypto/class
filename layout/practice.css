@@ -1,0 +1,56 @@
+@charset "utf-8" ; 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.box{
+    width: 80%;
+    height: 800px;
+    margin: auto;
+}
+.left{
+    background-color: cornflowerblue;
+    width: 20%;
+
+}
+.mid{
+    background-color: khaki;
+    width: 60%;
+}
+.right{
+    background-color: blueviolet ;
+    width: 20%;
+}
+
+/* 상단 */
+header{
+    /* background-color: aqua ;  */
+    height: 15%;
+    display: flex;
+}
+/* 제목 */
+.title{
+    background-color: crimson;
+    height: 25%;
+}
+/* 메인 */
+main{
+    background-color: pink;
+    height: 45%;
+}
+/* 후터 */
+footer{
+    /* background-color: aqua; */
+    height: 15%;
+    display: flex;
+}
+footer .left{
+    background-color: forestgreen ;
+}
+footer .mid{
+    background-color: cadetblue ;
+}
+footer .right{
+    background-color: aqua ; 
+}
